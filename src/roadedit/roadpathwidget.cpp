@@ -8,7 +8,7 @@
     See license.txt for more details.
 ***************************************************************************/
 
-#include <QtWidgets>
+#include "qevent.h"
 #include "globals.hpp"
 #include "roadpathwidget.hpp"
 #include "leveldata.hpp"
@@ -876,7 +876,7 @@ void RoadPathWidget::wheelEvent(QWheelEvent *event)
     // Zoom when CTRL is held down
     if (event->modifiers().testFlag(Qt::ControlModifier))
     {
-        QPoint numDegrees = event->angleDelta();
+/*        QPoint numDegrees = event->angleDelta();
 
         if (!numDegrees.isNull())
         {
@@ -898,7 +898,7 @@ void RoadPathWidget::wheelEvent(QWheelEvent *event)
             emit changeZoom(zoom);
         }
 
-        event->accept();
+        event->accept();*/
     }
     // Otherwise scroll around the view
     else

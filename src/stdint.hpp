@@ -17,7 +17,7 @@
 typedef qint8 int8_t;
 typedef qint16 int16_t;
 typedef qint32 int32_t;
-typedef qint64 int64_t;
+
 
 typedef quint8 uint8_t;
 typedef quint16 uint16_t;

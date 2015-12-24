@@ -5,8 +5,8 @@
     See license.txt for more details.
 ***************************************************************************/
 
-#include <QtWidgets>
-
+#include "qpainter.h"
+#include "qevent.h"
 #include "heightwidget.hpp"
 #include "../utils.hpp"
 

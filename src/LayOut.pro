@@ -5,7 +5,6 @@
 #-------------------------------------------------
 
 # Set the path to where the source tree is stored
-INCLUDEPATH += c:/coding/qt/lastwave/LayOut
 
 QT       += core gui
 
