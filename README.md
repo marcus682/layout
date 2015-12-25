@@ -10,10 +10,10 @@ to compile it on Ubuntu :
 
 cd src
 
-gmake
+qmake
 
 make
 
-and optionnally
+and optionnally :
 
 make install
