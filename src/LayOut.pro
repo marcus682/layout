@@ -13,6 +13,18 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = LayOut
 TEMPLATE = app
 
+target.path = /usr/games
+INSTALLS += target
+documentation.path = /usr/share/doc/layout/doc
+documentation.files = res/license.txt
+INSTALLS += documentation
+icons.path = /usr/share/icons/hicolor/48x48
+icons.files = res/LayOut.png
+INSTALLS += icons
+applications.path = /usr/share/applications
+applications.files = res/LayOut.desktop
+INSTALLS += applications
+
 # Icons
 RC_ICONS = res/icon48x48.ico   # Windows
 ICON     = res/icon48x48.icns  # Mac

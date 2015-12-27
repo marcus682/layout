@@ -16,4 +16,8 @@ make
 
 and optionnally :
 
-make install
+sudo make install
+
+OR
+
+sudo checkinstall -y --pkgname layout
