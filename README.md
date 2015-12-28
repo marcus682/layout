@@ -8,6 +8,8 @@ Compilation on Ubuntu
 
 to compile it on Ubuntu :
 
+(only with qt5)
+
 cd src
 
 qmake
