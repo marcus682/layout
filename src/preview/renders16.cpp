@@ -802,7 +802,7 @@ void RenderS16::mouseMoveEvent(QMouseEvent *event)
 // Move the road
 void RenderS16::wheelEvent(QWheelEvent *event)
 {
-/*    QPoint numDegrees = event->angleDelta();
+    QPoint numDegrees = event->angleDelta();
 
     if (!numDegrees.isNull())
     {
@@ -838,7 +838,7 @@ void RenderS16::wheelEvent(QWheelEvent *event)
             if (newPos >= 0 && newPos < levelData->end_pos)
                 emit sendNewPosition(newPos);
         }
-    }*/
+    }
 
     event->accept();
 }
